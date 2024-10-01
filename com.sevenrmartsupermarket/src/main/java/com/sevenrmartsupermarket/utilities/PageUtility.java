@@ -60,8 +60,10 @@ public class PageUtility {
 	
 	}
 
-	public void dismissAlert() {
-		driver.switchTo().alert().dismiss();	}
+	public void dismissAlert() 
+		{
+		driver.switchTo().alert().dismiss();	
+		}
 
 	public String getAlertText() {
 		Alert alert = driver.switchTo().alert();
