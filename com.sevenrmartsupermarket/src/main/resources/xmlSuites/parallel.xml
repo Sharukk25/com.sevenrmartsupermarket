@@ -1,0 +1,28 @@
+<suite name="sevenMartProject" thread-count="5" parallel="classes">
+	<listeners>
+		<listener
+			class-name="com.sevenrmartsupermarket.listeners.ExtentReporter"></listener>
+	</listeners>
+	<test name="Smoke">
+		<classes>
+			<class name="com.sevenrmartsupermarket.tests.LoginTest"></class>
+			<class name="com.sevenrmartsupermarket.tests.HomeTest"></class>
+		</classes>
+	</test>
+	<test name="Regression">
+		<classes>
+			<class name="com.sevenrmartsupermarket.tests.AdminTest"></class>
+			<class name="com.sevenrmartsupermarket.tests.ManageContactTest"></class>
+			<class name="com.sevenrmartsupermarket.tests.SubCategoryTest"></class>
+		</classes>
+	</test>
+	<test name="Exploratory">
+		<classes>
+			<class name="com.sevenrmartsupermarket.tests.CategoryTest"></class>
+			<class name="com.sevenrmartsupermarket.tests.ManageProductTest"></class>
+			<class name="com.sevenrmartsupermarket.tests.ManageNewsTest"></class>	
+		</classes>
+	</test>
+
+</suite>
+

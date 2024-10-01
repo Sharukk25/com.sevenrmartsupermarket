@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [sevenMartProject]">
+  <listeners>
+    <listener class-name="com.sevenrmartsupermarket.listeners.ExtentReporter"/>
+  </listeners>
+  <test thread-count="5" parallel="classes" name="Exploratory(failed)">
+    <classes>
+      <class name="com.sevenrmartsupermarket.tests.CategoryTest">
+        <methods>
+          <include name="WindowTerminate"/>
+          <include name="verifyNewCategoryCreation"/>
+          <include name="initliazeBrowser"/>
+          <include name="initliazeBrowser"/>
+        </methods>
+      </class> <!-- com.sevenrmartsupermarket.tests.CategoryTest -->
+    </classes>
+  </test> <!-- Exploratory(failed) -->
+</suite> <!-- Failed suite [sevenMartProject] -->

@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-01T16:41:36 IST" name="sevenMartProject" finished-at="2024-10-01T16:43:10 IST" duration-ms="94083">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.verifyAdminLogin()[pri:0, instance:com.sevenrmartsupermarket.tests.LoginTest@7a35b0f5]" name="verifyAdminLogin" class="com.sevenrmartsupermarket.tests.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTest.verifyAdminLogin()[pri:0, instance:com.sevenrmartsupermarket.tests.LoginTest@7a35b0f5]" name="verifyAdminLogin" class="com.sevenrmartsupermarket.tests.LoginTest"/>
+      </group> <!-- smoke -->
+      <group name="Smoke">
+        <method signature="ManageContactTest.verifyManageContactEditData()[pri:0, instance:com.sevenrmartsupermarket.tests.ManageContactTest@5fb759d6]" name="verifyManageContactEditData" class="com.sevenrmartsupermarket.tests.ManageContactTest"/>
+        <method signature="ManageProductTest.verifyTableHeader()[pri:0, instance:com.sevenrmartsupermarket.tests.ManageProductTest@1c742ed4]" name="verifyTableHeader" class="com.sevenrmartsupermarket.tests.ManageProductTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-10-01T16:41:36 IST" name="Smoke" finished-at="2024-10-01T16:42:15 IST" duration-ms="39362">
+      <class name="com.sevenrmartsupermarket.tests.HomeTest">
+        <test-method is-config="true" signature="initliazeBrowser()[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec]" started-at="2024-10-01T16:41:36 IST" name="initliazeBrowser" finished-at="2024-10-01T16:41:41 IST" duration-ms="5003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initliazeBrowser -->
+        <test-method signature="VerifyHomeCardNames()[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec]" started-at="2024-10-01T16:41:41 IST" name="VerifyHomeCardNames" finished-at="2024-10-01T16:41:43 IST" duration-ms="2378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomeCardNames -->
+        <test-method is-config="true" signature="WindowTerminate(org.testng.ITestResult)[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec]" started-at="2024-10-01T16:41:43 IST" name="WindowTerminate" finished-at="2024-10-01T16:41:44 IST" duration-ms="929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyHomeCardNames status=SUCCESS method=HomeTest.VerifyHomeCardNames()[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowTerminate -->
+        <test-method is-config="true" signature="initliazeBrowser()[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec]" started-at="2024-10-01T16:41:44 IST" name="initliazeBrowser" finished-at="2024-10-01T16:41:48 IST" duration-ms="3343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initliazeBrowser -->
+        <test-method signature="VerifyHomeProfileName()[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec]" started-at="2024-10-01T16:41:48 IST" name="VerifyHomeProfileName" finished-at="2024-10-01T16:41:50 IST" duration-ms="2537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomeProfileName -->
+        <test-method is-config="true" signature="WindowTerminate(org.testng.ITestResult)[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec]" started-at="2024-10-01T16:41:50 IST" name="WindowTerminate" finished-at="2024-10-01T16:41:52 IST" duration-ms="1387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyHomeProfileName status=SUCCESS method=HomeTest.VerifyHomeProfileName()[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowTerminate -->
+        <test-method is-config="true" signature="initliazeBrowser()[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec]" started-at="2024-10-01T16:41:52 IST" name="initliazeBrowser" finished-at="2024-10-01T16:41:55 IST" duration-ms="3435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initliazeBrowser -->
+        <test-method signature="verifyAdminPageClick()[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec]" started-at="2024-10-01T16:41:55 IST" name="verifyAdminPageClick" finished-at="2024-10-01T16:41:57 IST" duration-ms="1754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminPageClick -->
+        <test-method is-config="true" signature="WindowTerminate(org.testng.ITestResult)[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec]" started-at="2024-10-01T16:41:57 IST" name="WindowTerminate" finished-at="2024-10-01T16:41:58 IST" duration-ms="761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminPageClick status=SUCCESS method=HomeTest.verifyAdminPageClick()[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowTerminate -->
+        <test-method is-config="true" signature="initliazeBrowser()[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec]" started-at="2024-10-01T16:41:58 IST" name="initliazeBrowser" finished-at="2024-10-01T16:42:00 IST" duration-ms="2220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initliazeBrowser -->
+        <test-method signature="verifyManageCategoryClick()[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec]" started-at="2024-10-01T16:42:00 IST" name="verifyManageCategoryClick" finished-at="2024-10-01T16:42:01 IST" duration-ms="1179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManageCategoryClick -->
+        <test-method is-config="true" signature="WindowTerminate(org.testng.ITestResult)[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec]" started-at="2024-10-01T16:42:01 IST" name="WindowTerminate" finished-at="2024-10-01T16:42:01 IST" duration-ms="305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyManageCategoryClick status=SUCCESS method=HomeTest.verifyManageCategoryClick()[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowTerminate -->
+        <test-method is-config="true" signature="initliazeBrowser()[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec]" started-at="2024-10-01T16:42:01 IST" name="initliazeBrowser" finished-at="2024-10-01T16:42:03 IST" duration-ms="1893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initliazeBrowser -->
+        <test-method signature="verifyManageContactClick()[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec]" started-at="2024-10-01T16:42:03 IST" name="verifyManageContactClick" finished-at="2024-10-01T16:42:05 IST" duration-ms="1625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManageContactClick -->
+        <test-method is-config="true" signature="WindowTerminate(org.testng.ITestResult)[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec]" started-at="2024-10-01T16:42:05 IST" name="WindowTerminate" finished-at="2024-10-01T16:42:05 IST" duration-ms="248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyManageContactClick status=SUCCESS method=HomeTest.verifyManageContactClick()[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowTerminate -->
+        <test-method is-config="true" signature="initliazeBrowser()[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec]" started-at="2024-10-01T16:42:05 IST" name="initliazeBrowser" finished-at="2024-10-01T16:42:07 IST" duration-ms="1851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initliazeBrowser -->
+        <test-method signature="verifyManageNewsClick()[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec]" started-at="2024-10-01T16:42:07 IST" name="verifyManageNewsClick" finished-at="2024-10-01T16:42:08 IST" duration-ms="1167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManageNewsClick -->
+        <test-method is-config="true" signature="WindowTerminate(org.testng.ITestResult)[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec]" started-at="2024-10-01T16:42:08 IST" name="WindowTerminate" finished-at="2024-10-01T16:42:08 IST" duration-ms="356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyManageNewsClick status=SUCCESS method=HomeTest.verifyManageNewsClick()[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowTerminate -->
+        <test-method is-config="true" signature="initliazeBrowser()[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec]" started-at="2024-10-01T16:42:08 IST" name="initliazeBrowser" finished-at="2024-10-01T16:42:10 IST" duration-ms="1877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initliazeBrowser -->
+        <test-method signature="verifyManageSubCategoryClick()[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec]" started-at="2024-10-01T16:42:10 IST" name="verifyManageSubCategoryClick" finished-at="2024-10-01T16:42:12 IST" duration-ms="1255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManageSubCategoryClick -->
+        <test-method is-config="true" signature="WindowTerminate(org.testng.ITestResult)[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec]" started-at="2024-10-01T16:42:12 IST" name="WindowTerminate" finished-at="2024-10-01T16:42:12 IST" duration-ms="286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyManageSubCategoryClick status=SUCCESS method=HomeTest.verifyManageSubCategoryClick()[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowTerminate -->
+        <test-method is-config="true" signature="initliazeBrowser()[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec]" started-at="2024-10-01T16:42:12 IST" name="initliazeBrowser" finished-at="2024-10-01T16:42:14 IST" duration-ms="1887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initliazeBrowser -->
+        <test-method signature="verifyProductPageClick()[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec]" started-at="2024-10-01T16:42:14 IST" name="verifyProductPageClick" finished-at="2024-10-01T16:42:15 IST" duration-ms="1324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPageClick -->
+        <test-method is-config="true" signature="WindowTerminate(org.testng.ITestResult)[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec]" started-at="2024-10-01T16:42:15 IST" name="WindowTerminate" finished-at="2024-10-01T16:42:15 IST" duration-ms="270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductPageClick status=SUCCESS method=HomeTest.verifyProductPageClick()[pri:0, instance:com.sevenrmartsupermarket.tests.HomeTest@7ae0a9ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowTerminate -->
+      </class> <!-- com.sevenrmartsupermarket.tests.HomeTest -->
+      <class name="com.sevenrmartsupermarket.tests.LoginTest">
+        <test-method is-config="true" signature="initliazeBrowser()[pri:0, instance:com.sevenrmartsupermarket.tests.LoginTest@7a35b0f5]" started-at="2024-10-01T16:41:36 IST" name="initliazeBrowser" finished-at="2024-10-01T16:41:41 IST" duration-ms="5002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initliazeBrowser -->
+        <test-method signature="verifyAdminLogin()[pri:0, instance:com.sevenrmartsupermarket.tests.LoginTest@7a35b0f5]" started-at="2024-10-01T16:41:41 IST" name="verifyAdminLogin" finished-at="2024-10-01T16:41:43 IST" duration-ms="1793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminLogin -->
+        <test-method is-config="true" signature="WindowTerminate(org.testng.ITestResult)[pri:0, instance:com.sevenrmartsupermarket.tests.LoginTest@7a35b0f5]" started-at="2024-10-01T16:41:43 IST" name="WindowTerminate" finished-at="2024-10-01T16:41:44 IST" duration-ms="1382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminLogin status=SUCCESS method=LoginTest.verifyAdminLogin()[pri:0, instance:com.sevenrmartsupermarket.tests.LoginTest@7a35b0f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowTerminate -->
+        <test-method is-config="true" signature="initliazeBrowser()[pri:0, instance:com.sevenrmartsupermarket.tests.LoginTest@7a35b0f5]" started-at="2024-10-01T16:41:46 IST" name="initliazeBrowser" finished-at="2024-10-01T16:41:49 IST" duration-ms="3493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initliazeBrowser -->
+        <test-method signature="verifyDataProviderLogin(java.lang.String,java.lang.String)[pri:0, instance:com.sevenrmartsupermarket.tests.LoginTest@7a35b0f5]" started-at="2024-10-01T16:41:49 IST" name="verifyDataProviderLogin" data-provider="login" finished-at="2024-10-01T16:41:51 IST" duration-ms="1511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDataProviderLogin -->
+        <test-method is-config="true" signature="WindowTerminate(org.testng.ITestResult)[pri:0, instance:com.sevenrmartsupermarket.tests.LoginTest@7a35b0f5]" started-at="2024-10-01T16:41:51 IST" name="WindowTerminate" finished-at="2024-10-01T16:41:52 IST" duration-ms="927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDataProviderLogin status=SUCCESS method=LoginTest.verifyDataProviderLogin(java.lang.String,java.lang.String)[pri:0, instance:com.sevenrmartsupermarket.tests.LoginTest@7a35b0f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowTerminate -->
+        <test-method is-config="true" signature="initliazeBrowser()[pri:0, instance:com.sevenrmartsupermarket.tests.LoginTest@7a35b0f5]" started-at="2024-10-01T16:41:52 IST" name="initliazeBrowser" finished-at="2024-10-01T16:41:54 IST" duration-ms="2967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initliazeBrowser -->
+        <test-method signature="verifyDataProviderLogin(java.lang.String,java.lang.String)[pri:0, instance:com.sevenrmartsupermarket.tests.LoginTest@7a35b0f5]" started-at="2024-10-01T16:41:54 IST" name="verifyDataProviderLogin" data-provider="login" finished-at="2024-10-01T16:41:56 IST" duration-ms="1239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDataProviderLogin -->
+        <test-method is-config="true" signature="WindowTerminate(org.testng.ITestResult)[pri:0, instance:com.sevenrmartsupermarket.tests.LoginTest@7a35b0f5]" started-at="2024-10-01T16:41:56 IST" name="WindowTerminate" finished-at="2024-10-01T16:41:58 IST" duration-ms="1822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDataProviderLogin status=SUCCESS method=LoginTest.verifyDataProviderLogin(java.lang.String,java.lang.String)[pri:0, instance:com.sevenrmartsupermarket.tests.LoginTest@7a35b0f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowTerminate -->
+      </class> <!-- com.sevenrmartsupermarket.tests.LoginTest -->
+    </test> <!-- Smoke -->
+    <test started-at="2024-10-01T16:42:15 IST" name="Regression" finished-at="2024-10-01T16:42:41 IST" duration-ms="25531">
+      <class name="com.sevenrmartsupermarket.tests.ManageContactTest">
+        <test-method is-config="true" signature="initliazeBrowser()[pri:0, instance:com.sevenrmartsupermarket.tests.ManageContactTest@5fb759d6]" started-at="2024-10-01T16:42:15 IST" name="initliazeBrowser" finished-at="2024-10-01T16:42:20 IST" duration-ms="4687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initliazeBrowser -->
+        <test-method signature="verifyManageContactEditData()[pri:0, instance:com.sevenrmartsupermarket.tests.ManageContactTest@5fb759d6]" started-at="2024-10-01T16:42:20 IST" name="verifyManageContactEditData" finished-at="2024-10-01T16:42:27 IST" duration-ms="6701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManageContactEditData -->
+        <test-method is-config="true" signature="WindowTerminate(org.testng.ITestResult)[pri:0, instance:com.sevenrmartsupermarket.tests.ManageContactTest@5fb759d6]" started-at="2024-10-01T16:42:27 IST" name="WindowTerminate" finished-at="2024-10-01T16:42:27 IST" duration-ms="284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyManageContactEditData status=SUCCESS method=ManageContactTest.verifyManageContactEditData()[pri:0, instance:com.sevenrmartsupermarket.tests.ManageContactTest@5fb759d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowTerminate -->
+      </class> <!-- com.sevenrmartsupermarket.tests.ManageContactTest -->
+      <class name="com.sevenrmartsupermarket.tests.AdminTest">
+        <test-method is-config="true" signature="initliazeBrowser()[pri:0, instance:com.sevenrmartsupermarket.tests.AdminTest@57bc27f5]" started-at="2024-10-01T16:42:15 IST" name="initliazeBrowser" finished-at="2024-10-01T16:42:20 IST" duration-ms="4581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initliazeBrowser -->
+        <test-method signature="VerifynewAdminCreation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sevenrmartsupermarket.tests.AdminTest@57bc27f5]" started-at="2024-10-01T16:42:20 IST" name="VerifynewAdminCreation" data-provider="createNewAdmin" finished-at="2024-10-01T16:42:26 IST" duration-ms="5503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pragg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[prag123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifynewAdminCreation -->
+        <test-method is-config="true" signature="WindowTerminate(org.testng.ITestResult)[pri:0, instance:com.sevenrmartsupermarket.tests.AdminTest@57bc27f5]" started-at="2024-10-01T16:42:26 IST" name="WindowTerminate" finished-at="2024-10-01T16:42:27 IST" duration-ms="1549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifynewAdminCreation status=SUCCESS method=AdminTest.VerifynewAdminCreation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sevenrmartsupermarket.tests.AdminTest@57bc27f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowTerminate -->
+        <test-method is-config="true" signature="initliazeBrowser()[pri:0, instance:com.sevenrmartsupermarket.tests.AdminTest@57bc27f5]" started-at="2024-10-01T16:42:27 IST" name="initliazeBrowser" finished-at="2024-10-01T16:42:30 IST" duration-ms="2451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initliazeBrowser -->
+        <test-method signature="VerifynewAdminCreation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sevenrmartsupermarket.tests.AdminTest@57bc27f5]" started-at="2024-10-01T16:42:30 IST" name="VerifynewAdminCreation" data-provider="createNewAdmin" finished-at="2024-10-01T16:42:33 IST" duration-ms="3154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gukesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gukesh123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifynewAdminCreation -->
+        <test-method is-config="true" signature="WindowTerminate(org.testng.ITestResult)[pri:0, instance:com.sevenrmartsupermarket.tests.AdminTest@57bc27f5]" started-at="2024-10-01T16:42:33 IST" name="WindowTerminate" finished-at="2024-10-01T16:42:33 IST" duration-ms="472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifynewAdminCreation status=SUCCESS method=AdminTest.VerifynewAdminCreation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sevenrmartsupermarket.tests.AdminTest@57bc27f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowTerminate -->
+        <test-method is-config="true" signature="initliazeBrowser()[pri:0, instance:com.sevenrmartsupermarket.tests.AdminTest@57bc27f5]" started-at="2024-10-01T16:42:33 IST" name="initliazeBrowser" finished-at="2024-10-01T16:42:35 IST" duration-ms="2109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initliazeBrowser -->
+        <test-method signature="excelDataRead()[pri:0, instance:com.sevenrmartsupermarket.tests.AdminTest@57bc27f5]" started-at="2024-10-01T16:42:35 IST" name="excelDataRead" finished-at="2024-10-01T16:42:35 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelDataRead -->
+        <test-method is-config="true" signature="WindowTerminate(org.testng.ITestResult)[pri:0, instance:com.sevenrmartsupermarket.tests.AdminTest@57bc27f5]" started-at="2024-10-01T16:42:35 IST" name="WindowTerminate" finished-at="2024-10-01T16:42:36 IST" duration-ms="356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=excelDataRead status=SUCCESS method=AdminTest.excelDataRead()[pri:0, instance:com.sevenrmartsupermarket.tests.AdminTest@57bc27f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowTerminate -->
+        <test-method is-config="true" signature="initliazeBrowser()[pri:0, instance:com.sevenrmartsupermarket.tests.AdminTest@57bc27f5]" started-at="2024-10-01T16:42:36 IST" name="initliazeBrowser" finished-at="2024-10-01T16:42:38 IST" duration-ms="1964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initliazeBrowser -->
+        <test-method signature="verifyNewAdminCreation()[pri:0, instance:com.sevenrmartsupermarket.tests.AdminTest@57bc27f5]" started-at="2024-10-01T16:42:38 IST" name="verifyNewAdminCreation" finished-at="2024-10-01T16:42:40 IST" duration-ms="2574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewAdminCreation -->
+        <test-method is-config="true" signature="WindowTerminate(org.testng.ITestResult)[pri:0, instance:com.sevenrmartsupermarket.tests.AdminTest@57bc27f5]" started-at="2024-10-01T16:42:40 IST" name="WindowTerminate" finished-at="2024-10-01T16:42:41 IST" duration-ms="574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNewAdminCreation status=SUCCESS method=AdminTest.verifyNewAdminCreation()[pri:0, instance:com.sevenrmartsupermarket.tests.AdminTest@57bc27f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowTerminate -->
+      </class> <!-- com.sevenrmartsupermarket.tests.AdminTest -->
+      <class name="com.sevenrmartsupermarket.tests.SubCategoryTest">
+        <test-method is-config="true" signature="initliazeBrowser()[pri:0, instance:com.sevenrmartsupermarket.tests.SubCategoryTest@4b8d604b]" started-at="2024-10-01T16:42:15 IST" name="initliazeBrowser" finished-at="2024-10-01T16:42:20 IST" duration-ms="4870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initliazeBrowser -->
+        <test-method signature="verifyNewSubCategoryCreation()[pri:0, instance:com.sevenrmartsupermarket.tests.SubCategoryTest@4b8d604b]" started-at="2024-10-01T16:42:20 IST" name="verifyNewSubCategoryCreation" finished-at="2024-10-01T16:42:27 IST" duration-ms="7054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewSubCategoryCreation -->
+        <test-method is-config="true" signature="WindowTerminate(org.testng.ITestResult)[pri:0, instance:com.sevenrmartsupermarket.tests.SubCategoryTest@4b8d604b]" started-at="2024-10-01T16:42:27 IST" name="WindowTerminate" finished-at="2024-10-01T16:42:29 IST" duration-ms="1531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNewSubCategoryCreation status=SUCCESS method=SubCategoryTest.verifyNewSubCategoryCreation()[pri:0, instance:com.sevenrmartsupermarket.tests.SubCategoryTest@4b8d604b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowTerminate -->
+      </class> <!-- com.sevenrmartsupermarket.tests.SubCategoryTest -->
+    </test> <!-- Regression -->
+    <test started-at="2024-10-01T16:42:41 IST" name="Exploratory" finished-at="2024-10-01T16:43:10 IST" duration-ms="29141">
+      <class name="com.sevenrmartsupermarket.tests.ManageNewsTest">
+        <test-method is-config="true" signature="initliazeBrowser()[pri:0, instance:com.sevenrmartsupermarket.tests.ManageNewsTest@333d4a8c]" started-at="2024-10-01T16:42:41 IST" name="initliazeBrowser" finished-at="2024-10-01T16:42:48 IST" duration-ms="6943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initliazeBrowser -->
+        <test-method signature="verifyDeletionOfNews()[pri:0, instance:com.sevenrmartsupermarket.tests.ManageNewsTest@333d4a8c]" started-at="2024-10-01T16:42:48 IST" name="verifyDeletionOfNews" finished-at="2024-10-01T16:42:56 IST" duration-ms="8562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeletionOfNews -->
+        <test-method is-config="true" signature="WindowTerminate(org.testng.ITestResult)[pri:0, instance:com.sevenrmartsupermarket.tests.ManageNewsTest@333d4a8c]" started-at="2024-10-01T16:42:56 IST" name="WindowTerminate" finished-at="2024-10-01T16:42:57 IST" duration-ms="983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDeletionOfNews status=SUCCESS method=ManageNewsTest.verifyDeletionOfNews()[pri:0, instance:com.sevenrmartsupermarket.tests.ManageNewsTest@333d4a8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowTerminate -->
+        <test-method is-config="true" signature="initliazeBrowser()[pri:0, instance:com.sevenrmartsupermarket.tests.ManageNewsTest@333d4a8c]" started-at="2024-10-01T16:42:57 IST" name="initliazeBrowser" finished-at="2024-10-01T16:43:02 IST" duration-ms="5065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initliazeBrowser -->
+        <test-method signature="verifyNewsPageCreation()[pri:0, instance:com.sevenrmartsupermarket.tests.ManageNewsTest@333d4a8c]" started-at="2024-10-01T16:43:02 IST" name="verifyNewsPageCreation" finished-at="2024-10-01T16:43:09 IST" duration-ms="6254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewsPageCreation -->
+        <test-method is-config="true" signature="WindowTerminate(org.testng.ITestResult)[pri:0, instance:com.sevenrmartsupermarket.tests.ManageNewsTest@333d4a8c]" started-at="2024-10-01T16:43:09 IST" name="WindowTerminate" finished-at="2024-10-01T16:43:10 IST" duration-ms="992" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNewsPageCreation status=SUCCESS method=ManageNewsTest.verifyNewsPageCreation()[pri:0, instance:com.sevenrmartsupermarket.tests.ManageNewsTest@333d4a8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowTerminate -->
+      </class> <!-- com.sevenrmartsupermarket.tests.ManageNewsTest -->
+      <class name="com.sevenrmartsupermarket.tests.ManageProductTest">
+        <test-method is-config="true" signature="initliazeBrowser()[pri:0, instance:com.sevenrmartsupermarket.tests.ManageProductTest@1c742ed4]" started-at="2024-10-01T16:42:41 IST" name="initliazeBrowser" finished-at="2024-10-01T16:42:48 IST" duration-ms="7152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initliazeBrowser -->
+        <test-method signature="verifyProductSearch()[pri:0, instance:com.sevenrmartsupermarket.tests.ManageProductTest@1c742ed4]" started-at="2024-10-01T16:42:48 IST" name="verifyProductSearch" finished-at="2024-10-01T16:42:55 IST" duration-ms="6757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductSearch -->
+        <test-method is-config="true" signature="WindowTerminate(org.testng.ITestResult)[pri:0, instance:com.sevenrmartsupermarket.tests.ManageProductTest@1c742ed4]" started-at="2024-10-01T16:42:55 IST" name="WindowTerminate" finished-at="2024-10-01T16:42:57 IST" duration-ms="2488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductSearch status=SUCCESS method=ManageProductTest.verifyProductSearch()[pri:0, instance:com.sevenrmartsupermarket.tests.ManageProductTest@1c742ed4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowTerminate -->
+        <test-method is-config="true" signature="initliazeBrowser()[pri:0, instance:com.sevenrmartsupermarket.tests.ManageProductTest@1c742ed4]" started-at="2024-10-01T16:42:57 IST" name="initliazeBrowser" finished-at="2024-10-01T16:43:03 IST" duration-ms="5311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initliazeBrowser -->
+        <test-method signature="verifyTableHeader()[pri:0, instance:com.sevenrmartsupermarket.tests.ManageProductTest@1c742ed4]" started-at="2024-10-01T16:43:03 IST" name="verifyTableHeader" finished-at="2024-10-01T16:43:08 IST" duration-ms="5176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTableHeader -->
+        <test-method is-config="true" signature="WindowTerminate(org.testng.ITestResult)[pri:0, instance:com.sevenrmartsupermarket.tests.ManageProductTest@1c742ed4]" started-at="2024-10-01T16:43:08 IST" name="WindowTerminate" finished-at="2024-10-01T16:43:10 IST" duration-ms="2123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTableHeader status=SUCCESS method=ManageProductTest.verifyTableHeader()[pri:0, instance:com.sevenrmartsupermarket.tests.ManageProductTest@1c742ed4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowTerminate -->
+      </class> <!-- com.sevenrmartsupermarket.tests.ManageProductTest -->
+      <class name="com.sevenrmartsupermarket.tests.CategoryTest">
+        <test-method is-config="true" signature="initliazeBrowser()[pri:0, instance:com.sevenrmartsupermarket.tests.CategoryTest@6a8658ff]" started-at="2024-10-01T16:42:41 IST" name="initliazeBrowser" finished-at="2024-10-01T16:42:48 IST" duration-ms="7202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initliazeBrowser -->
+        <test-method signature="verifyNewCategoryCreation()[pri:0, instance:com.sevenrmartsupermarket.tests.CategoryTest@6a8658ff]" started-at="2024-10-01T16:42:48 IST" name="verifyNewCategoryCreation" finished-at="2024-10-01T16:43:07 IST" duration-ms="19103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewCategoryCreation -->
+        <test-method is-config="true" signature="WindowTerminate(org.testng.ITestResult)[pri:0, instance:com.sevenrmartsupermarket.tests.CategoryTest@6a8658ff]" started-at="2024-10-01T16:43:07 IST" name="WindowTerminate" finished-at="2024-10-01T16:43:10 IST" duration-ms="2832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNewCategoryCreation status=SUCCESS method=CategoryTest.verifyNewCategoryCreation()[pri:0, instance:com.sevenrmartsupermarket.tests.CategoryTest@6a8658ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowTerminate -->
+      </class> <!-- com.sevenrmartsupermarket.tests.CategoryTest -->
+    </test> <!-- Exploratory -->
+  </suite> <!-- sevenMartProject -->
+</testng-results>
