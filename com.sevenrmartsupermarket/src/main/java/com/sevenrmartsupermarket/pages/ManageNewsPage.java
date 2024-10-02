@@ -1,14 +1,11 @@
 package com.sevenrmartsupermarket.pages;
 
-import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
-import com.sevenrmartsupermarket.utilities.GeneralUtility;
 import com.sevenrmartsupermarket.utilities.PageUtility;
 import com.sevenrmartsupermarket.utilities.WaitUtility;
 
@@ -16,7 +13,6 @@ public class ManageNewsPage {
 
 	WebDriver driver;
 	PageUtility pageutility;
-	GeneralUtility utility = new GeneralUtility();
 	WaitUtility wait;
 	
 	@FindBy(xpath ="//a[@class='btn btn-rounded btn-danger']")

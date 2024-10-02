@@ -1,6 +1,5 @@
 package com.sevenrmartsupermarket.pages;
 
-import java.util.Properties;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -12,7 +11,6 @@ import com.sevenrmartsupermarket.utilities.PageUtility;
 public class CategoryPage {
 	
 	public WebDriver driver;
-	Properties properties = new  Properties();
 	PageUtility pageutility;
 	
 	@FindBy(xpath="//a[@class='btn btn-rounded btn-danger']")

@@ -13,6 +13,7 @@ public class SubCategoryPage {
 
 	public WebDriver driver;
 	PageUtility pageutility;
+	
 	@FindBy(xpath="//a[@class='btn btn-rounded btn-danger']")
 	private WebElement newSubCatergoryButton;
 	@FindBy(xpath="//select[@class='form-control selectpicker']")

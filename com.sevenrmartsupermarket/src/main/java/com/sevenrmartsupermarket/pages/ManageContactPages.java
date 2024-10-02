@@ -11,6 +11,7 @@ public class ManageContactPages {
 	
 	WebDriver driver;
 	PageUtility pageutility;
+	
 	@FindBy(xpath="//a[@class='btn btn-sm btn btn-primary btncss']")
 	private WebElement EditButton;
 	@FindBy(xpath="//textarea[@id='content']")

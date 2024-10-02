@@ -16,7 +16,6 @@ public class SubCategoryTest extends Base
 	SubCategoryPage subcategorypage;
 
 @Test	
-
 	public void verifyNewSubCategoryCreation()
 	{
 		loginpage = new LoginPage(driver);
