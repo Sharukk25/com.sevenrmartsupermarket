@@ -23,7 +23,9 @@ public class ManageNewsTest extends Base {
 		managenewspage =homepage.clickOnNewsMoreInfo();	
 		String news = GeneralUtility.getRandomName();
 		managenewspage.createNews(news);
-		Assert.assertEquals(managenewspage.getNewsTitle(),"Enter News Informations");
+		String actualName =managenewspage.getTextOfFirstElementOfTable();
+	    Assert.assertEquals(actualName,news);
+		
 	}
 	
 	@Test
@@ -32,8 +34,10 @@ public class ManageNewsTest extends Base {
 		loginpage = new LoginPage(driver);
 		homepage =loginpage.login();
 		managenewspage = new ManageNewsPage(driver);
-		managenewspage =homepage.clickOnNewsMoreInfo();	
+		managenewspage =homepage.clickOnNewsMoreInfo();
+		String secondElementBefore = managenewspage.getTextOfSecondElementBeforeDeletion();
 		managenewspage.deleteNews();
-		Assert.assertEquals(managenewspage.deleteAlert(),"Manage News");
+		String secondElementAfter = managenewspage.getTextOfSecondElementAfterDeletion();
+		Assert.assertEquals(secondElementAfter,secondElementBefore);
 	}
 }

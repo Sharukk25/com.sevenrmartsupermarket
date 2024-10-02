@@ -18,6 +18,10 @@ public class ManageContactPages {
 	private WebElement addressField;
 	@FindBy(xpath="//button[@name='Update']")
 	private WebElement updateButton;
+	@FindBy(xpath="//table//td[3]")
+	private WebElement FirsttableData;
+	@FindBy(xpath="//a//p[contains(text(),'Manage Contact')]")
+    private WebElement sideNavigationManageContact;
 	
 	public ManageContactPages(WebDriver driver)
 	{
@@ -50,5 +54,10 @@ public class ManageContactPages {
 		clickUpdate();
 	}
 	
+	public String getTextOfFirstElementOfTable()
+	{
+		sideNavigationManageContact.click();
+		return FirsttableData.getText();	 
+	}
 
 }

@@ -20,12 +20,14 @@ public class SubCategoryPage {
 	private WebElement categoryField;
 	@FindBy(xpath="//input[@id='subcategory']")
     private WebElement subCategoryField;
-	@FindBy(xpath="//button[@class='btn btn-danger']")
-	private WebElement saveButton;
     @FindBy(xpath="//input[@id='main_img']")
     private WebElement imageUpload;
-    @FindBy(xpath="//h1[contains(text(),'Add Sub Category')]")
-    private WebElement newsubcategoryTitle;
+    @FindBy(xpath="//button[@class='btn btn-danger']")
+	private WebElement saveButton;
+    @FindBy(xpath="//a//p[contains(text(),'Sub Category')]")
+    private WebElement sideNavigationSubCategory;
+    @FindBy(xpath="//table//td[1]")
+	private WebElement FirsttableData;
     
 	public SubCategoryPage(WebDriver driver)
 	{
@@ -39,7 +41,7 @@ public class SubCategoryPage {
 		return this;
 		
 	}
-	public SubCategoryPage enterCategory()
+	public SubCategoryPage selectCategory()
 	{
 		Select select = new Select(categoryField);
 		select.selectByIndex(3);
@@ -66,13 +68,15 @@ public class SubCategoryPage {
 	public void createNewSubCategory(String subCategory)
 	{
 		createNewSubCategory()
-		.enterCategory()
+		.selectCategory()
 		.enterSubCategory(subCategory)
 		.uploadImage()
 		.clickSaveButton();
 	}
-	public String getNewSubCategoryCreationTitle()
+	
+	public String getTextOfFirstElementOfTable()
 	{
-		return newsubcategoryTitle.getText();
+		sideNavigationSubCategory.click();
+		return FirsttableData.getText();	 
 	}
 }

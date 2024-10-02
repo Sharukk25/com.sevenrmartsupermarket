@@ -48,7 +48,8 @@ public class AdminTest extends Base{
 		homepage =loginpage.login();
 		adminpage =homepage.clickOnAdminPage();
 		String newUser=userName +" "+ GeneralUtility.getRandomName();
+		System.out.println(newUser);
 		adminpage.createNewAdmin(newUser, password, userType);
-		Assert.assertEquals(homepage.getAdminTitle(),"Admin Users");
+		Assert.assertEquals(adminpage.getTextOfFirstElementOfTable(),newUser);
 	}	
 }

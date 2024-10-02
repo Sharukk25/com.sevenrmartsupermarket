@@ -23,7 +23,7 @@ public class SubCategoryTest extends Base
 		subcategorypage=homepage.clickOnSUbCategoryMoreInfo();
 		String subname = GeneralUtility.getRandomName();
         subcategorypage.createNewSubCategory(subname);
-        Assert.assertEquals(subcategorypage.getNewSubCategoryCreationTitle(), "Add Sub Category");
-        
+        String actualName =subcategorypage.getTextOfFirstElementOfTable();
+        Assert.assertEquals(actualName,subname); 
 	}
 }

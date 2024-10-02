@@ -27,6 +27,8 @@ public class AdminPage {
 	private WebElement saveButton;
 	@FindBy(xpath = "//table[@class='table table-bordered table-hover table-sm']")
 	private List<WebElement> tabledata;
+	@FindBy(xpath="//table//td[1]")
+	private WebElement FirsttableData;
 
 	public AdminPage(WebDriver driver) {
 		this.driver = driver;
@@ -71,5 +73,10 @@ public class AdminPage {
 		.enterPassword(password)
 		.selectUserType(userType)
 		.clickSave();
+	}
+	
+	public String getTextOfFirstElementOfTable()
+	{
+		return FirsttableData.getText();
 	}
 }

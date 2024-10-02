@@ -31,10 +31,10 @@ public class CategoryPage {
 	private WebElement showLeftRadioButtonTwo;
 	@FindBy(xpath="//button[@class='btn btn-danger']")
 	private WebElement saveButton; 
-//	@FindBy(xpath ="//h1[contains(text(),'List Categories')]")
-//	private WebElement categoryPagetitle;
-	@FindBy(xpath ="//h1[contains(text(),'Add Category')]")
-	private WebElement categoryPageCreationtitle;
+	@FindBy(xpath="//a//p[contains(text(),'Category')]")
+    private WebElement sideNavigationCategory;
+    @FindBy(xpath="//table//td[1]")
+	private WebElement FirsttableData;
 	
 	public CategoryPage(WebDriver driver)
 	{
@@ -118,11 +118,10 @@ public class CategoryPage {
 		selectLeftRadioButton();
 		clickSave();
 	}
-	
-	public String getCategoryPageTitle()
+	public String getTextOfFirstElementOfTable()
 	{
-		return categoryPageCreationtitle.getText();
+		sideNavigationCategory.click();
+		return FirsttableData.getText();
+		 
 	}
-	
-	
 }

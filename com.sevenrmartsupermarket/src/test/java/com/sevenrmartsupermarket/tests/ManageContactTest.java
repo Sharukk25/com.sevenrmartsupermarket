@@ -23,6 +23,7 @@ public class ManageContactTest extends Base{
 		managecontactpage =homepage.clickOnManageContactMoreInfo();	
 		String categoryName =GeneralUtility.getRandomName();
 		managecontactpage.editContactDetail(categoryName);
-		Assert.assertEquals(homepage.getContactTitle(), "Contact Us");
+		String updatedContactName = managecontactpage.getTextOfFirstElementOfTable();
+		 Assert.assertEquals(updatedContactName, categoryName);
 	}
 }

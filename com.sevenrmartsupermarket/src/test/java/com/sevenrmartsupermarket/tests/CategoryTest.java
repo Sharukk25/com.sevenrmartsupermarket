@@ -23,6 +23,7 @@ public class CategoryTest extends Base{
 		categorypage =homepage.clickOnCategoryMoreInfo();
 		String category = GeneralUtility.getRandomName();
 		categorypage.createNewCategory(category);
-		Assert.assertEquals(categorypage.getCategoryPageTitle(), "Add Category");
+		String actualName =categorypage.getTextOfFirstElementOfTable();
+        Assert.assertEquals(actualName,category);
 	}
 }

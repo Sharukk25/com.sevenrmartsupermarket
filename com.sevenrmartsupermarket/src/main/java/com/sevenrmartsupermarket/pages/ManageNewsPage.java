@@ -27,10 +27,17 @@ public class ManageNewsPage {
 	private List<WebElement> newsTable;
 	@FindBy(xpath="//h3[contains(text(),'Enter News Informations')]")
 	private WebElement manageNewsTitle;
-	@FindBy(xpath="//table//tr[5]//td[2]//i[@class='fas fa-trash-alt']")
+	@FindBy(xpath="//table//tr[1]//td[2]//i[@class='fas fa-trash-alt']")
 	private WebElement deleteData;
-	@FindBy(xpath="//h4[starts-with(text(),'Manage News')]")
-	private WebElement deleteNewsTitle;
+	@FindBy(xpath="//a//p[contains(text(),'Manage News')]")
+    private WebElement sideNavigationManageNews;
+    @FindBy(xpath="//table//td[1]")
+	private WebElement FirsttableData;
+    @FindBy(xpath="//table//tr[2]//td[1]")
+	private WebElement secondtableElementBefore;
+    @FindBy(xpath="//table//td[1]")
+	private WebElement secondtableElementAfter;
+  
 	
 	public ManageNewsPage(WebDriver driver)
 	{
@@ -78,8 +85,22 @@ public class ManageNewsPage {
 		deleteData.click();
 		pageutility.acceptAlert();
 	}
-	public String deleteAlert()
+	
+	public String getTextOfFirstElementOfTable()
 	{
-		return deleteNewsTitle.getText();
+		sideNavigationManageNews.click();
+		return FirsttableData.getText();	 
+	}
+	
+	public String getTextOfSecondElementBeforeDeletion()
+	{
+		sideNavigationManageNews.click();
+		return secondtableElementBefore.getText();	 
+	}
+	
+	public String getTextOfSecondElementAfterDeletion()
+	{
+		sideNavigationManageNews.click();
+		return FirsttableData.getText();	 
 	}
 }
