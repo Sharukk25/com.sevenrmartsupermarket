@@ -24,5 +24,6 @@ public class SubCategoryTest extends Base
 		String subname = GeneralUtility.getRandomName();
         subcategorypage.createNewSubCategory(subname);
         Assert.assertEquals(subcategorypage.getNewSubCategoryCreationTitle(), "Add Sub Category");
+        
 	}
 }

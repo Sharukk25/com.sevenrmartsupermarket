@@ -63,9 +63,9 @@ public class SubCategoryPage {
 		return this;
 	}
 	
-	public SubCategoryPage createNewSubCategory(String subCategory)
+	public void createNewSubCategory(String subCategory)
 	{
-		return this.createNewSubCategory()
+		createNewSubCategory()
 		.enterCategory()
 		.enterSubCategory(subCategory)
 		.uploadImage()
