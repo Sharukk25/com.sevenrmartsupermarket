@@ -83,6 +83,7 @@ public class ManageNewsPage {
 		WaitUtility wait = new WaitUtility();
 		wait.waitForElementToBeClickable(driver, deleteData, 10);
 		deleteData.click();
+		wait.waitForAlertToBePresent(driver, 10);
 		pageutility.acceptAlert();
 	}
 	

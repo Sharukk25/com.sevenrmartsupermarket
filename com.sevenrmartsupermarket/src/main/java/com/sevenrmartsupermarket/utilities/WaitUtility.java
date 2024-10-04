@@ -26,7 +26,7 @@ public class WaitUtility {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
 	}
 	
-	public void waitForInVisibility(WebDriver driver,String xpath,long time)
+	public void waitForInVisibilityOfTheElement(WebDriver driver,String xpath,long time)
 	{
 		wait = new WebDriverWait(driver,Duration.ofSeconds(time));
 		wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath(xpath)));
