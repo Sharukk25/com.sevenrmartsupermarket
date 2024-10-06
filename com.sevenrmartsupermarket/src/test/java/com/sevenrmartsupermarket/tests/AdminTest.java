@@ -33,7 +33,7 @@ public class AdminTest extends Base{
 	}
 	
 	@Test
-	public void excelDataRead()
+	public void VerifyExcelDataRead()
 	{
 		excelreader.setExcelFile("LoginData", "AdminData");
 		String exceluserName =excelreader.getCellData(1, 0);

@@ -2,34 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-02T17:59:23 IST" name="Default suite" finished-at="2024-10-02T17:59:32 IST" duration-ms="9584">
+  <suite started-at="2024-10-03T14:50:31 IST" name="Default suite" finished-at="2024-10-03T14:50:39 IST" duration-ms="7599">
     <groups>
-      <group name="Smoke">
-        <method signature="ManageContactTest.verifyManageContactEditData()[pri:0, instance:com.sevenrmartsupermarket.tests.ManageContactTest@33bc72d1]" name="verifyManageContactEditData" class="com.sevenrmartsupermarket.tests.ManageContactTest"/>
-      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-10-02T17:59:23 IST" name="Default test" finished-at="2024-10-02T17:59:32 IST" duration-ms="9584">
-      <class name="com.sevenrmartsupermarket.tests.ManageContactTest">
-        <test-method is-config="true" signature="initliazeBrowser()[pri:0, instance:com.sevenrmartsupermarket.tests.ManageContactTest@33bc72d1]" started-at="2024-10-02T17:59:23 IST" name="initliazeBrowser" finished-at="2024-10-02T17:59:26 IST" duration-ms="2697" status="PASS">
+    <test started-at="2024-10-03T14:50:31 IST" name="Default test" finished-at="2024-10-03T14:50:39 IST" duration-ms="7599">
+      <class name="com.sevenrmartsupermarket.tests.ManageNewsTest">
+        <test-method is-config="true" signature="initliazeBrowser()[pri:0, instance:com.sevenrmartsupermarket.tests.ManageNewsTest@1a75e76a]" started-at="2024-10-03T14:50:31 IST" name="initliazeBrowser" finished-at="2024-10-03T14:50:36 IST" duration-ms="4847" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initliazeBrowser -->
-        <test-method signature="verifyManageContactEditData()[pri:0, instance:com.sevenrmartsupermarket.tests.ManageContactTest@33bc72d1]" started-at="2024-10-02T17:59:26 IST" name="verifyManageContactEditData" finished-at="2024-10-02T17:59:32 IST" duration-ms="6591" status="PASS">
+        <test-method signature="verifyDeletionOfNews()[pri:0, instance:com.sevenrmartsupermarket.tests.ManageNewsTest@1a75e76a]" started-at="2024-10-03T14:50:36 IST" name="verifyDeletionOfNews" finished-at="2024-10-03T14:50:38 IST" duration-ms="2334" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyManageContactEditData -->
-        <test-method is-config="true" signature="WindowTerminate(org.testng.ITestResult)[pri:0, instance:com.sevenrmartsupermarket.tests.ManageContactTest@33bc72d1]" started-at="2024-10-02T17:59:32 IST" name="WindowTerminate" finished-at="2024-10-02T17:59:32 IST" duration-ms="246" status="PASS">
+        </test-method> <!-- verifyDeletionOfNews -->
+        <test-method is-config="true" signature="WindowTerminate(org.testng.ITestResult)[pri:0, instance:com.sevenrmartsupermarket.tests.ManageNewsTest@1a75e76a]" started-at="2024-10-03T14:50:38 IST" name="WindowTerminate" finished-at="2024-10-03T14:50:39 IST" duration-ms="369" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyManageContactEditData status=SUCCESS method=ManageContactTest.verifyManageContactEditData()[pri:0, instance:com.sevenrmartsupermarket.tests.ManageContactTest@33bc72d1] output={null}]]]>
+                <![CDATA[[TestResult name=verifyDeletionOfNews status=SUCCESS method=ManageNewsTest.verifyDeletionOfNews()[pri:0, instance:com.sevenrmartsupermarket.tests.ManageNewsTest@1a75e76a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WindowTerminate -->
-      </class> <!-- com.sevenrmartsupermarket.tests.ManageContactTest -->
+      </class> <!-- com.sevenrmartsupermarket.tests.ManageNewsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
