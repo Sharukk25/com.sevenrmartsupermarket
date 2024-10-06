@@ -42,7 +42,7 @@ public class AdminTest extends Base{
 	}
 	
 	@Test(dataProvider = "createNewAdmin",dataProviderClass = DataProviderClass.class) 
-	public void VerifynewAdminCreation(String userName,String password,String userType)
+	public void VerifyNewAdminCreation(String userName,String password,String userType)
 	{
 		loginpage = new LoginPage(driver);
 		homepage =loginpage.login();
