@@ -35,7 +35,7 @@ public class ManageContactPages {
 		pageutility.scrollAndClick(EditButton);
 	}
 	
-	public void upadteNewAddress(String address)
+	public void updateNewAddress(String address)
 	{
 		addressField.clear();
 		addressField.sendKeys(address);
@@ -50,7 +50,7 @@ public class ManageContactPages {
 	public void editContactDetail(String address)
 	{
 		clickEditButton();
-		upadteNewAddress(address);
+		updateNewAddress(address);
 		clickUpdate();
 	}
 	
